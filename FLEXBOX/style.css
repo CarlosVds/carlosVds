@@ -1,0 +1,21 @@
+.container{
+    background-color: #ccc;
+    height: 400px;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+.container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 30px;
+    background-color: #ff0000;
+}
