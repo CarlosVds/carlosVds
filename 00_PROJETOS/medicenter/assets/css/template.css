@@ -127,6 +127,7 @@ nav a{
     border: 1px solid #fff;
     color: #fff;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .div_1,
@@ -160,17 +161,29 @@ nav a{
     justify-content: center;
 }
 
-.sessao_2 .conteiner{
-    height: 100%;
-}
-
-.content_1{
+.sessao_2 section{
     flex: 2;
-    background-color: red;
 }
 
-.content_2{
+.sessao_2 aside{
     flex: 1;
-    background-color: green;
 }
 
+.general_info{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.general_title{
+   color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.general_bar{
+    width: 50px;
+    height: 2px;
+    background-color: #39aae1;
+    margin-top: 10px;
+}
