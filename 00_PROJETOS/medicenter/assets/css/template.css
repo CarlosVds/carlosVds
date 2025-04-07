@@ -190,6 +190,17 @@ nav a{
     margin-top: 10px;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
 .box_day{
     display: flex;
 }
@@ -197,7 +208,7 @@ nav a{
 .box_1, .box_2{
     background-color: #2b4c99;
     color: #fff;
-    padding: 6px 10px;
+    padding: 10px;
     margin-right: 3px;
     margin-bottom: 20px;
 }
@@ -207,8 +218,59 @@ nav a{
 }
 
 
-.container section{
-    flex: 2;
+.box_image img{
+    width: 100%;
+    height: auto;
 }
 
+.box_text{
+    color: #5c5c5c;
+}
 
+/*Session Department*/
+
+.box_blue{
+    width: 151.5px;
+    height: 151.5px;
+    background-color: #39aae1;
+    margin: 0;
+    padding: 0;
+}
+
+.width_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.general_body{
+    font-size: 14px;
+    color: #5c5c5c;
+    margin-bottom: 30px;
+}
+
+.contat{
+    display: flex;
+    flex-direction: column;
+}
+
+.contat .tel,
+.contat .email,
+.contat .agenda{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #CCC;
+    padding: 5px;
+}
+
+.email div{
+    display: flex;
+    gap: 3px;
+}
+
+.contat .tel img, 
+.contat .email img,
+.contat .agenda img{
+    width: 30px;
+    margin-right: 10px;
+}
