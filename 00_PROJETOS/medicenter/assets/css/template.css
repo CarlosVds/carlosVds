@@ -223,6 +223,11 @@ article{
     height: auto;
 }
 
+.box_title{
+    color: #000;
+}
+
+
 .box_text{
     color: #5c5c5c;
 }
