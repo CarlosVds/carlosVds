@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     margin: 0;
     padding: 0;
@@ -18,10 +21,6 @@ header{
 .logo, .menu{
     display: flex;
     align-items: center;
-}
-
-.menu{
-
 }
 
 nav ul,
@@ -96,8 +95,78 @@ nav a:hover{
 .banner_2,
 .banner_3{
     flex: 1;
+    color: #fff;
+    padding: 20px;
 }
 
 .banner_1{
     background-color: #39aae1;
+}
+.banner_2{
+    background-color: #0079c7;
+}
+.banner_3{
+    background-color: #2b4c99;
+}
+
+.banner_title{
+    font-size: 20px;
+}
+
+.banner_desc{
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.banner_options a{
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.hours_1,
+.hours_2,
+.hours_3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #3b5fb3;
+}
+
+/*Section geral*/
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex: 2;
+}
+
+#geral aside{
+    flex: 1;
+}
+
+.widget_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}   
+
+.widget_title_tex{
+    font-size: 21px;
+    font-weight: bold;
+    color: #000;
+}
+
+.widget_title_bar{
+    width: 50px;
+    height: 2px;
+    background-color: #39aae1;
+    margin-top: 10px;
 }
