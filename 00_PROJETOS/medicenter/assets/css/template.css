@@ -1,7 +1,8 @@
-html,body{
+body{
     margin: 0;
     padding: 0;
 }
+
 header{
     display: flex;
     justify-content: center;
@@ -9,13 +10,9 @@ header{
 }
 
 .container {
-    overflow: auto;
-    max-width: 990px;
-    width: 100%;
-    margin: 0 auto;
+    width: 990px;
     display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
+    justify-content: space-between; 
 }
 
 .logo, .menu{
@@ -23,372 +20,84 @@ header{
     align-items: center;
 }
 
-nav ul, 
-nav li {
-    display: flex;
+.menu{
+
+}
+
+nav ul,
+nav li{
     list-style: none;
-    margin: 0px;
-    padding: 0px;
-   
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
 }
 
 nav a{
+    display: block;
     padding: 15px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #727272;
-    font-size: 18px;
     text-transform: uppercase;
+    color: #727272;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu .active a,
-.menu a:hover{
+nav .active a,
+nav a:hover{
     background-color: #39aae1;
     color: #fff;
 }
 
-/* Section Banner*/
-
-.sessao_1{
+#banner{
     display: flex;
     justify-content: center;
     height: 670px;
-    background: url(../images/img1.jpg);
+    background-image: url(../images/img1.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.sessao_1 .container{
+.column{
     flex-direction: column;
 }
 
-.banner_title{
+.banner_headline{
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;  
 }
 
-.banner_title h1{
-    font-size: 80px; 
-    padding: 0;
-    margin: 0;
-    text-shadow: 0px 1px #555;
-}
-
-.banner_title p{
-    font-size: 18px;
-    margin-top: 25px; 
-    line-height: 30px;
-    text-shadow: 0px 1px #555;
-}
-
-.banner_info{
-    height: 230px;
+.banner_headline h1,
+.banner_headline h2{
     display: flex;
-}
-
-.info_1,
-.info_2,
-.info_3{
-    flex: 1;
-    padding: 20px 40px;
-}
-
-.info_1{
-    background-color: #39aae1;
-}
-.info_2{
-    background-color: #0079c7;
-}
-.info_3{
-    background-color: #2b4c99;
-}
-
-.banner_info h1, 
-.banner_info p{
-    font-size: 30px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+    flex-direction: column;
     margin: 0;
-    margin-bottom: 25px;
     padding: 0;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px #5555;
     color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.banner_info p{
-    font-size: 15px;
-}
-
-.banner_info button{
-    padding: 8px;
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
+    max-width: 350px;
     margin-bottom: 30px;
-    cursor: pointer;
 }
 
-.div_1,
-.div_2,
-.div_3{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #3c62bd;  
-}
-
-.div_1 p,
-.div_2 p,
-.div_3 p{
-    margin: 0;
-    padding: 0;
-}
-
-.div_1 p{
-    margin-bottom: 12px;
-}
-
-.div_2 p,
-.div_3 p{
-    margin: 12px 0px 12px 0px;
-}
-
-/*Section 2*/
-
-.sessao_2{
-    display: flex;
-    justify-content: center;
-}
-
-.sessao_2 section{
-    flex: 2;
-}
-
-.sessao_2 aside{
-    flex: 1;
-}
-
-.general_info{
-    margin-top: 30px;
-    margin-bottom: 20px;
-
-}
-
-.general_title{
-    color: #000000;
+.banner_headline h2{
     font-size: 21px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.general_bar{
-    width: 50px;
-    height: 2px;
-    background-color: #39aae1;
-    margin-top: 10px;
-}
-
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-article{
-    flex: 1;
-    min-width: 300px;
-    margin-right: 20px;
-}
-
-.box_day{
+.banner_options{
+    height: 210px;
     display: flex;
 }
 
-.box_1, .box_2{
-    background-color: #2b4c99;
-    color: #fff;
-    padding: 10px;
-    margin-right: 3px;
-    margin-bottom: 20px;
-}
-
-.box_2{
-    background-color: #39aae1;
-}
-
-
-.box_image img{
-    width: 100%;
-    height: auto;
-}
-
-.box_title{
-    color: #000;
-}
-
-
-.box_text{
-    color: #5c5c5c;
-}
-
-/*Session Department*/
-
-.box_blue{
-    width: 151.5px;
-    height: 151.5px;
-    background-color: #39aae1;
-    margin: 0;
-    padding: 0;
-}
-
-.width_box{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-}
-
-.general_body{
-    font-size: 14px;
-    color: #5c5c5c;
-    margin-bottom: 30px;
-}
-
-.contat{
-    display: flex;
-    flex-direction: column;
-}
-
-.contat .tel,
-.contat .email,
-.contat .agenda{
-    display: flex;
-    align-items: center;
-    border-top: 1px solid #CCC;
-    padding: 5px;
-}
-
-.email div{
-    display: flex;
-    gap: 3px;
-}
-
-.contat .tel img, 
-.contat .email img,
-.contat .agenda img{
-    width: 30px;
-    margin-right: 10px;
-}
-
-/*Área footer*/
-
-footer{
-    display: flex;
-    justify-content: center;
-    background-color: #000;
-    color: #fff;
-}
-
-.footer_info{
-    height:130px;
-}
-
-.footer_flex{
-    display: flex;
-    flex-direction: column;
-}
-
-.footer_general_info .general_title{
-    color: #fff;
+.banner_1,
+.banner_2,
+.banner_3{
     flex: 1;
 }
 
-.footer_general_info{
-    flex: 1;
-    padding-right: 15px;
-}
-
-.footer_session_title{
-    display: flex;
-}
-
-.footer_general_info h1{
-    margin-top: 30px;
-    margin-bottom: 40px;
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #5c5c5c;
-}
-
-.footer_contat{
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    color: #5c5c5c;
-}
-
-.contat_email{
-    color: #fff;
-}
-
-.contat_social{
-    display: flex;
-}
-
-.contat_social div{
-    display: flex;
-    margin-left: 5px;
-    margin-top: 35px;
-}
-
-.contat_social img{
-    width:30px;
-    height: 30px;
-    background-color: #5c5c5c;
-    border-radius: 100%;
-}
-
-.contat_links{
-    margin-top: 30px;
-    font-size: 14px;
-}
-
-.contat_links_div{
-    display: flex;
-    color: #5c5c5c;
-}
-
-.color_text_white{
-    color: #fff;
-}
-
-.seta{
-    margin-right: 5px;
-}    
-
-.years{
-    display: inline-block;
-    margin-top: 3px;
-    margin-bottom: 25px;
-    margin-left:18px;
-    color: #39aae1;
-}
-
-.contat_links_div a{
-    color: #fff;
-    text-decoration: none;
-}
-
-.border_bottom{
-    width: 100%;
-    height: 1px;
-    background-color: #5c5c5c;
-}
-
-.copyhite{
-    margin-top: 20px;
-    color: #5c5c5c;
-    font-size: 14px;
+.banner_1{
+    background-color: #39aae1;
 }
