@@ -271,3 +271,69 @@ article a{
 .info_last{
     border-bottom: 1px solid #bbbb;
 }
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu{
+    display: flex;
+    justify-content: center;
+    flex:1;
+}
+
+.fm_1, .fm_2, .fm_3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.fm_1{
+    background-color: #39aae1;
+}
+.fm_2{
+    background-color: #0079c7;
+}
+.fm_3{
+    background-color: #2b4c99;
+}
+
+.footerColunm{
+    flex-direction: column;
+}
+
+.footer_area{
+    display: flex;
+}
+
+.footer_areaItem,
+.footer_areaItem .footer_text{
+    flex: 1;
+    color: #fff;
+}
+
+.footer_copy{
+    display: flex;
+    border-top: 1px solid #2c2c2c;
+    margin-top: 20px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff; 
+    font-size: 12px;
+}
+
+.copy{
+    color: #4c4c4c;
+    margin-right: 8px;
+}
+
+.footer_menu_title{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.footer_menu_text{
+    font-size: 12px;
+}
