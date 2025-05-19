@@ -7,6 +7,7 @@
 body{
    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
    font-size: 13px;
+   overflow-x: hidden;
 }
 
 header{
@@ -32,6 +33,7 @@ header{
     height: 80px;
     background-color: #b28756;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .menu{
@@ -120,4 +122,34 @@ header{
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.banner .sliders-pointers{
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .pointers{
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    border: 2px solid #b28756;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.banner .active{
+    background-color: #b28756;
+}
+
+/* Área Default */
+
+.default{
+    background-color: #ff0000;
 }
