@@ -208,3 +208,15 @@ header{
     box-shadow: 5px 5px 20px #666;
 }
 
+/* Área Services */
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service--info{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
