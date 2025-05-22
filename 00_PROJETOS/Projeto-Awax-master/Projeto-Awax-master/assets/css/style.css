@@ -114,7 +114,10 @@ header{
     color: #b28756;
 }
 
-.banner .botao{
+.buttonDefault{
+    display: inline-block;
+    color:#fff;
+    text-decoration: none;
     background-color: #b28756;
     padding: 12px 30px;
     border-radius: 40px;
@@ -151,5 +154,57 @@ header{
 /* Área Default */
 
 .default{
-    background-color: #ff0000;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+.default .section-title,
+.default .section-desc{
+    text-align: center;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.default .section-title{
+    font-size: 20px;
+}
+
+.default .section-desc{
+     font-size: 10px;
+     color: #CCC;
+     margin-bottom: 25px;
+}
+
+.default .section-body{
+    margin: auto;
+    max-width: 1140px;
+}
+
+.default.light{
+    background-color: #f7f7f7;
+    color: #000;
+}
+
+.default.dark{
+    background-color: #000;
+    color: #fff;
+}
+
+.section-aboutus{
+    display: flex;
+}
+.section-aboutus--left{
+    flex: 1;
+    flex-direction: column;  
+}
+
+.section-aboutus--right{
+    width: 520px;
+    text-align: center;
+}
+.section-aboutus--right img{
+    width: 80%;
+    box-shadow: 5px 5px 20px #666;
+}
+
